@@ -14,7 +14,7 @@ def tienda(request):
     return render(request, 'ProyectoWebApp/tienda.html')
 
 def blog(request):
-    return request('ProyectoWebApp/blog.html')
+    return render(request, 'ProyectoWebApp/blog.html')
 
 
 
