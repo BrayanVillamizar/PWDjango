@@ -4,8 +4,11 @@
 
 {% block content %}
 
-<div>
+    {%for servicio in servicios %}
     
-</div>
 
+    <h2 style="color: white ">{{servicio.titulo}}</h2>
+    <p style="color: white ">{{servicio.contenido}}</p>
+    <p><img src="{{servicio.imagen.url}}"></p>
+    {% endfor %}
 {% endblock %} 
