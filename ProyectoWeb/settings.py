@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'ProyectoWebbApp',  # Asegúrate de que el nombre de tu aplicación esté aquí
     'servicios',  # Asegúrate de que el nombre de tu aplicación esté aquí
     'blog',  # Asegúrate de que el nombre de tu aplicación esté aquí
+    'contacto',  # Asegúrate de que el nombre de tu aplicación esté aquí
 ]
 
 MIDDLEWARE = [
